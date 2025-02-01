@@ -307,7 +307,7 @@
     </section>
 
     <!-- Arrival -->
-    <section class="mt-20">
+    <section class="mt-20 mb-40">
       <h1 class="text-3xl font-bold lg:ml-10 text-red-600">Arrival & Offers</h1>
       <div class="lg:flex items-center">
         <!-- dawat -->
@@ -344,13 +344,15 @@
     </section>
 
     <!-- News -->
-    <section class="bg-gray-100">
-      <div class="flex">
+    <section
+      class="bg-gray-100 h-60 absolute z-50 -mt-32 w-2/3 rounded-2xl lg:ml-52"
+    >
+      <div class="lg:flex justify-around pt-5">
         <div>
-          <img src="/c2-assets/vegetable-busket.png" />
+          <img class="h-52" src="/c2-assets/vegetable-busket.png" />
         </div>
         <!-- grocery -->
-        <div>
+        <div class="space-y-4">
           <h1 class="text-2xl font-bold">Get Grocery News</h1>
           <p>
             <small
@@ -363,8 +365,38 @@
             type="text"
             placeholder="Enter Your Email"
           />
+          <button class="btn bg-orange-500">Subscribe</button>
         </div>
       </div>
     </section>
+
+    <!-- footer -->
+    <footer class="bg-green-500 pt-48 relative pb-10">
+      <div class="lg:flex justify-around">
+        <div>
+          <img src="/c2-assets/logo-footer.png" />
+          <p class="mt-2">
+            A store that sells perishable and nonperishable food supplies and
+            certain<br />
+            nonedible household items, such as soaps and paper products.
+          </p>
+        </div>
+        <div>
+          <ul>
+            <li><a href="">Product</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="mt-10">
+          <h1>Follow Us</h1>
+          <div class="flex space-x-4 mt-2">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
