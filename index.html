@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natural Shop</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwind   -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- daisy ui -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div
+      class="flex lg:flex justify-between lg:justify-around mx-6 mt-4 lg:mt-6"
+    >
+      <div class="lg:items-center">
+        <img src="./c2-assets/logo-header.png" />
+      </div>
+      <!-- text -->
+      <div class="lg:flex hidden">
+        <ul class="lg:flex gap-8 items-center">
+          <li><a href="">Home</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Order</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <!-- search -->
+      <div class="">
+        <div class="lg:space-x-2 hidden lg:block">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button class="btn btn-outline btn-secondary">Secondary</button>
+          <button class="btn btn-warning">Warning</button>
+        </div>
+        <div>
+          <i class="fa-solid fa-bars lg:hidden"></i>
+        </div>
+      </div>
+    </div>
+    <!-- header section -->
+    <section class="my-10">
+      <div>
+        <div class="text-center space-y-5">
+          <h1 class="text-5xl font-bold">
+            Freshness
+            <span class="text-orange-500">You Can <br />Count On</span>,Prices
+            You'll Love
+          </h1>
+          <p class="w-auto">
+            Definition. Fresh vegetables are edible plants that are consumed
+            in<br />
+            their raw or minimally processed state, typically harvested for<br />
+            direct consumption and characterized by their high nutritional value
+            and perishability.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
